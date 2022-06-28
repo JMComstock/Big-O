@@ -1,6 +1,6 @@
 # Big-O
 
-Scalable Code is the basis of Big O Notation
+<i>Scalable Code is the basis of Big O Notation</i>
 
 ![Screenshot](complexityChart.png)
 
