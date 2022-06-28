@@ -18,10 +18,13 @@ Iterating through half a collection is still O(n) <br>
 Two separate collections: O(a * b) <br>
 
 <h3>What Can Cause Time in a Function?</h3>
-Operations (+, -, *, /) <br>
-Comparisons (<, >, ==) <br>
-Looping (for, while) <br>
-Outside Function call (function()) <br>
+<ul>
+  <li>Operations (+, -, *, /)</li>
+  <li>Comparisons (<, >, ==)</li>
+  <li>Looping (for, while)</li>
+  <li>Outside Function call (function()) </li>
+</ul>
+
 <h3>Rule Book</h3>
 <b>Rule 1:</b> Always worst Case <br>
 <b>Rule 2:</b> Remove Constants <br>
