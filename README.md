@@ -2,7 +2,7 @@
 
 Scalable Code is the basis of Big O Notation
 
-##Big Os
+<h3>Big Os</h3>
 
 O(1) <b>Constant</b> – no loops <br>
 O(log N) <b>Logarithmic</b> – usually searching algorithms have log n if they are sorted (Binary Search) <br>
@@ -15,21 +15,26 @@ O(n!) <b>Factorial</b> – you are adding a loop for every element <br>
 Iterating through half a collection is still O(n) <br>
 Two separate collections: O(a * b) <br>
 
-What Can Cause Time in a Function? <br>
+<h3>What Can Cause Time in a Function?</h3>
 Operations (+, -, *, /) <br>
 Comparisons (<, >, ==) <br>
 Looping (for, while) <br>
 Outside Function call (function()) <br>
-Rule Book <br>
-Rule 1: Always worst Case <br>
-Rule 2: Remove Constants <br>
-Rule 3: <br>
-• Different inputs should have different variables: O(a + b) <br>
-• A and B arrays nested would be: O(a * b) <br>
-+ for steps in order <br>
-* for nested steps <br>
-Rule 4: Drop Non-dominant terms <br>
-What Causes Space Complexity? <br>
-• Data Structures <br>
-• Function Call <br>
-• Allocations <br>
+<h3>Rule Book</h3>
+<b>Rule 1:</b> Always worst Case <br>
+<b>Rule 2:</b> Remove Constants <br>
+<b>Rule 3:</b> <br>
+<ul>
+  <li>Different inputs should have different variables: O(a + b)</li>
+  <li>A and B arrays nested would be: O(a * b)</li>
+  <li>+ for steps in order</li>
+  <li>* for nested steps</li>
+</ul>
+<b>Rule 4:</b> Drop Non-dominant terms <br>
+<h3>What Causes Space Complexity?</h3>
+
+<ul>
+  <li>Data Structures</li>
+  <li>Function Call</li>
+  <li>Allocations</li>
+</ul>
