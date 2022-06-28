@@ -14,8 +14,9 @@ O(n^2) <b>Quadratic</b> – every element in a collection needs to be compared t
 nested loops <br>
 O(2^n) <b>Exponential</b> – recursive algorithms that solves a problem of size N <br>
 O(n!) <b>Factorial</b> – you are adding a loop for every element <br>
-Iterating through half a collection is still O(n) <br>
-Two separate collections: O(a * b) <br>
+
+** Iterating through half a collection is still O(n) <br>
+** Two separate collections: O(a + b), if they are nested  O(a * b) <br>
 
 <h3>What Can Cause Time in a Function?</h3>
 <ul>
