@@ -2,7 +2,7 @@
 
 Scalable Code is the basis of Big O Notation
 
-![Screenshot](screenshot.png)
+![Screenshot](Big-0 Complexity Chart.png)
 
 <h3>Big Os</h3>
 
