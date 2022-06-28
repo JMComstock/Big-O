@@ -1,4 +1,4 @@
-# Big-O
+<h1 align="center"> Big-O </h1>
 
 <i>Scalable Code is the basis of Big O Notation</i>
 
