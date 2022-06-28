@@ -26,16 +26,16 @@ Two separate collections: O(a * b) <br>
 </ul>
 
 <h3>Rule Book</h3>
-<b>Rule 1:</b> Always worst Case <br>
+<b>Rule 1:</b> Always Worst Case <br>
 <b>Rule 2:</b> Remove Constants <br>
-<b>Rule 3:</b> <br>
+<b>Rule 3:</b> Different terms for inputs<br>
 <ul>
   <li>Different inputs should have different variables: O(a + b)</li>
   <li>A and B arrays nested would be: O(a * b)</li>
   <li>+ for steps in order</li>
   <li>* for nested steps</li>
 </ul>
-<b>Rule 4:</b> Drop Non-dominant terms <br>
+<b>Rule 4:</b> Drop Non-Dominant Terms <br>
 <h3>What Causes Space Complexity?</h3>
 
 <ul>
