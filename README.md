@@ -6,9 +6,8 @@
 
 ![Screenshot](CommonDataStructureOperations.png)
 
-<div align="center">
 ![Screenshot](ArraySortingAlgorithms.png)
-</div>
+
 <h3>Big Os</h3>
 
 O(1) <b>Constant</b> – no loops <br>
