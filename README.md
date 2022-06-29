@@ -4,6 +4,10 @@
 
 ![Screenshot](complexityChart.png)
 
+![Screenshot](CommonDataStructureOperations.png)
+
+![Screenshot](ArraySortingAlgorithms.png)
+
 <h3>Big Os</h3>
 
 O(1) <b>Constant</b> – no loops <br>
