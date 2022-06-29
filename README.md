@@ -1,6 +1,10 @@
 <h1 align="center"> Big-O </h1>
 
-<i>Scalable Code is the basis of Big O Notation</i>
+<h3><i>Scalable Code is the basis of Big O Notation</i></h3>
+<ul>
+  <li>Speed - time complexity</li>
+  <li>Memory - space complexity (heap -> variables and stack -> function calls)</li>
+</ul>
 
 ![Screenshot](complexityChart.png)
 
@@ -17,7 +21,7 @@ O(n log(n)) <b>Log Linear</b> – usually sorting operations <br>
 O(n^2) <b>Quadratic</b> – every element in a collection needs to be compared to ever other element. Two
 nested loops <br>
 O(2^n) <b>Exponential</b> – recursive algorithms that solves a problem of size N <br>
-O(n!) <b>Factorial</b> – you are adding a loop for every element <br>
+O(n!) <b>Factorial</b> – you are adding a loop for every element you are iterating over <br>
 
 ** Iterating through half a collection is still O(n) <br>
 ** Two separate collections: O(a + b), if they are nested  O(a * b) <br>
@@ -41,9 +45,10 @@ O(n!) <b>Factorial</b> – you are adding a loop for every element <br>
   <li>* for nested steps</li>
 </ul>
 <b>Rule 4:</b> Drop Non-Dominant Terms <br>
-<h3>What Causes Space Complexity?</h3>
 
+<h3>What Causes Space Complexity?</h3>
 <ul>
+  <li>Variables</li>
   <li>Data Structures</li>
   <li>Function Call</li>
   <li>Allocations</li>
