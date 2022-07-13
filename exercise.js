@@ -100,3 +100,26 @@ function hasPairWithSum2(arr, sum) {
     return false;
 }
 hasPairWithSum2([6,4,3,2,1,7], 9);
+
+//FizzBuzz
+
+//a for loop that iterates over a variable i that increments up to 100.
+for (var i = 1; i < 101; i++) {
+
+    //Next, we have an if nested within our for loop, we have used the % 
+    // (The modulus operator returns the remainder of an integer division) 
+    // hence we use it to check if a number is divisible by 15. And in case the condition is true, 
+    // it outputs “FizzBuzz”. We use 15 to check if the number is divisible by 3 & 5. 
+    // Post which we divide it by 3 & 5 accordingly.
+    if (i % 15 == 0) console.log("FizzBuzz");
+    else if (i % 3 == 0) console.log("Fizz");
+    else if (i % 5 == 0) console.log("Buzz");
+
+    //Similarly, we repeat it for 3 and 5 using else if.
+    else console.log(i);
+}
+
+
+// Similar to the first method we start the code with a for loop that runs up to 100, however, we don’t increment the variable inside the for loop.
+for (let i = 1; i < 101;) 
+console.log((i++ % 3 ? '' : 'fizz') + (i % 5 ? '' : 'buzz') || i)
